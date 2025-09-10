@@ -16,7 +16,7 @@ import java.util.Locale;
 @RestController
 public class RequestHeaderController {
 
-    @RequestMapping("/header")
+    @RequestMapping("/headers")
     public String headers(
             HttpServletRequest request,
             HttpServletResponse response,
